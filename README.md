@@ -1,4 +1,22 @@
-# agent sdk 練習專案
+# Agent SDK 教學專案
+
+## 專案結構
+
+```
+agent sdk/
+├── 教學範例/              # 課程範例檔案
+│   ├── 01_hello_agent.py
+│   ├── 02_tools_math.py
+│   ├── 03_tools_memory_todo.py
+│   ├── 04_session_sqlite.py
+│   ├── 05_handoffs.py
+│   ├── 06_guardrail_min.py
+│   └── 07_structured_output.py
+├── db/                   # 資料庫檔案目錄（Git 忽略）
+├── 教學檔.md              # 詳細教學文件
+├── README.md              # 專案說明
+└── requirements.txt       # 依賴套件
+```
 
 ## 環境變數設定
 
@@ -19,7 +37,7 @@ pip install -r requirements.txt
    ```
 3. 執行程式時，環境變數會自動載入：
    ```bash
-   python 01_hello_agent.py
+   python 教學範例/01_hello_agent.py
    ```
 
 ### 最佳實踐

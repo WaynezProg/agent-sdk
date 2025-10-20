@@ -136,6 +136,9 @@ conversations.db*
 *.sqlite
 *.sqlite3
 
+# Database directory
+db/
+
 # IDE and Editor files
 .vscode/
 .idea/
