@@ -1,4 +1,4 @@
-# Job Helper 專案
+# agent sdk 練習專案
 
 ## 環境變數設定
 
