@@ -1,0 +1,30 @@
+# LlamaIndex 教學專案依賴套件 (Python 3.12 相容版本)
+
+# 核心 LlamaIndex 套件
+llama-index
+llama-index-llms-openai
+llama-index-embeddings-openai
+
+# 文件處理套件
+llama-index-readers-file
+llama-index-readers-web
+pypdf
+python-docx
+
+# 向量資料庫套件
+chromadb
+faiss-cpu
+
+# 環境變數管理
+python-dotenv
+
+# 資料處理
+pandas
+numpy
+
+# 視覺化
+matplotlib
+seaborn
+
+# 進階功能 (如果可用)
+llama-index-multi-modal-llms-openai
